@@ -1,12 +1,12 @@
-[gd_scene load_steps=3 format=3 uid="uid://cqdid4c4qpyru"]
+[gd_scene load_steps=3 format=3 uid="uid://b2x7ctr0mqior"]
 
-[ext_resource type="PackedScene" uid="uid://gc6hl21okehk" path="res://duck.tscn" id="1_2oiaa"]
+[ext_resource type="PackedScene" uid="uid://gc6hl21okehk" path="res://entities/duck.tscn" id="1_2oiaa"]
 [ext_resource type="PackedScene" uid="uid://5itmebhfsafj" path="res://blocks/grass_floor.tscn" id="2_o0c5t"]
 
 [node name="World" type="Node3D"]
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
-transform = Transform3D(-3.09086e-08, 0.707107, -0.707107, 3.09086e-08, 0.707107, 0.707107, 1, 0, -4.37114e-08, -24, 8, -13)
+transform = Transform3D(-0.707107, 0.5, -0.5, 3.09086e-08, 0.707107, 0.707107, 0.707107, 0.5, -0.5, 11, 8, -13)
 light_energy = 2.5
 
 [node name="Duck" parent="." instance=ExtResource("1_2oiaa")]
