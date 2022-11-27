@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://jgyqfsal5jj0"
+path="res://.godot/imported/tileLarge_desert.obj-272f1b01618dd4ea66b40b05d5176ec1.mesh"
+
+[deps]
+
+files=["res://.godot/imported/tileLarge_desert.obj-272f1b01618dd4ea66b40b05d5176ec1.mesh"]
+
+source_file="res://assets/kaykit-minigame/tileLarge_desert.obj"
+dest_files=["res://.godot/imported/tileLarge_desert.obj-272f1b01618dd4ea66b40b05d5176ec1.mesh", "res://.godot/imported/tileLarge_desert.obj-272f1b01618dd4ea66b40b05d5176ec1.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

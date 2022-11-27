@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bcb2trx118l00"
+path="res://.godot/imported/rocksB_desert.obj-d30fd40b9a9772a8edecb02cffabb826.mesh"
+
+[deps]
+
+files=["res://.godot/imported/rocksB_desert.obj-d30fd40b9a9772a8edecb02cffabb826.mesh"]
+
+source_file="res://assets/kaykit-minigame/rocksB_desert.obj"
+dest_files=["res://.godot/imported/rocksB_desert.obj-d30fd40b9a9772a8edecb02cffabb826.mesh", "res://.godot/imported/rocksB_desert.obj-d30fd40b9a9772a8edecb02cffabb826.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

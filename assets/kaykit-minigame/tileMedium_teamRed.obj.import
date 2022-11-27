@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://jnkgkwvdjum0"
+path="res://.godot/imported/tileMedium_teamRed.obj-22497d6a993e64c835e6cd1e2922de47.mesh"
+
+[deps]
+
+files=["res://.godot/imported/tileMedium_teamRed.obj-22497d6a993e64c835e6cd1e2922de47.mesh"]
+
+source_file="res://assets/kaykit-minigame/tileMedium_teamRed.obj"
+dest_files=["res://.godot/imported/tileMedium_teamRed.obj-22497d6a993e64c835e6cd1e2922de47.mesh", "res://.godot/imported/tileMedium_teamRed.obj-22497d6a993e64c835e6cd1e2922de47.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

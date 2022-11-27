@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cvl2evkagft5f"
+path="res://.godot/imported/blaster_teamBlue.obj-3eec1cc5a2e8d84ddd0fd0a90ad70c5d.mesh"
+
+[deps]
+
+files=["res://.godot/imported/blaster_teamBlue.obj-3eec1cc5a2e8d84ddd0fd0a90ad70c5d.mesh"]
+
+source_file="res://assets/kaykit-minigame/blaster_teamBlue.obj"
+dest_files=["res://.godot/imported/blaster_teamBlue.obj-3eec1cc5a2e8d84ddd0fd0a90ad70c5d.mesh", "res://.godot/imported/blaster_teamBlue.obj-3eec1cc5a2e8d84ddd0fd0a90ad70c5d.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

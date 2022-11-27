@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://rumc8pmikk0a"
+path="res://.godot/imported/hoop_teamRed.obj-94b5c95b909b0f1bccb2057f26ceb2eb.mesh"
+
+[deps]
+
+files=["res://.godot/imported/hoop_teamRed.obj-94b5c95b909b0f1bccb2057f26ceb2eb.mesh"]
+
+source_file="res://assets/kaykit-minigame/hoop_teamRed.obj"
+dest_files=["res://.godot/imported/hoop_teamRed.obj-94b5c95b909b0f1bccb2057f26ceb2eb.mesh", "res://.godot/imported/hoop_teamRed.obj-94b5c95b909b0f1bccb2057f26ceb2eb.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

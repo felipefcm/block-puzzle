@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c6focgpyt6tn8"
+path="res://.godot/imported/character_bearHead.obj-c9159ed83fad152b34cc9889fc99178c.mesh"
+
+[deps]
+
+files=["res://.godot/imported/character_bearHead.obj-c9159ed83fad152b34cc9889fc99178c.mesh"]
+
+source_file="res://assets/kaykit-minigame/character_bearHead.obj"
+dest_files=["res://.godot/imported/character_bearHead.obj-c9159ed83fad152b34cc9889fc99178c.mesh", "res://.godot/imported/character_bearHead.obj-c9159ed83fad152b34cc9889fc99178c.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

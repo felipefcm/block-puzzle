@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dxxdqmxkwh20r"
+path="res://.godot/imported/powerupBlock_teamBlue.obj-894d5961b824bd2d6ee87553ea81d8fa.mesh"
+
+[deps]
+
+files=["res://.godot/imported/powerupBlock_teamBlue.obj-894d5961b824bd2d6ee87553ea81d8fa.mesh"]
+
+source_file="res://assets/kaykit-minigame/powerupBlock_teamBlue.obj"
+dest_files=["res://.godot/imported/powerupBlock_teamBlue.obj-894d5961b824bd2d6ee87553ea81d8fa.mesh", "res://.godot/imported/powerupBlock_teamBlue.obj-894d5961b824bd2d6ee87553ea81d8fa.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

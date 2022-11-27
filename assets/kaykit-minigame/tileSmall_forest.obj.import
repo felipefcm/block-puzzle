@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dkou48yrho8mj"
+path="res://.godot/imported/tileSmall_forest.obj-5525cea98e2eaac2e6ab592303d6cf7f.mesh"
+
+[deps]
+
+files=["res://.godot/imported/tileSmall_forest.obj-5525cea98e2eaac2e6ab592303d6cf7f.mesh"]
+
+source_file="res://assets/kaykit-minigame/tileSmall_forest.obj"
+dest_files=["res://.godot/imported/tileSmall_forest.obj-5525cea98e2eaac2e6ab592303d6cf7f.mesh", "res://.godot/imported/tileSmall_forest.obj-5525cea98e2eaac2e6ab592303d6cf7f.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

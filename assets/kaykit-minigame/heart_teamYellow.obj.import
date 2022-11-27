@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b47jbmo3fh5wh"
+path="res://.godot/imported/heart_teamYellow.obj-b45a176602a75a4f38254ea8889b8c57.mesh"
+
+[deps]
+
+files=["res://.godot/imported/heart_teamYellow.obj-b45a176602a75a4f38254ea8889b8c57.mesh"]
+
+source_file="res://assets/kaykit-minigame/heart_teamYellow.obj"
+dest_files=["res://.godot/imported/heart_teamYellow.obj-b45a176602a75a4f38254ea8889b8c57.mesh", "res://.godot/imported/heart_teamYellow.obj-b45a176602a75a4f38254ea8889b8c57.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

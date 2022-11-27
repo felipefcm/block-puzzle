@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bmos62uhcft78"
+path="res://.godot/imported/ball.obj-9944980246433d16333601a028e622ab.mesh"
+
+[deps]
+
+files=["res://.godot/imported/ball.obj-9944980246433d16333601a028e622ab.mesh"]
+
+source_file="res://assets/kaykit-minigame/ball.obj"
+dest_files=["res://.godot/imported/ball.obj-9944980246433d16333601a028e622ab.mesh", "res://.godot/imported/ball.obj-9944980246433d16333601a028e622ab.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

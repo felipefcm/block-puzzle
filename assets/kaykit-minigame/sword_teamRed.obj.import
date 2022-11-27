@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c4vn3asfxu7bk"
+path="res://.godot/imported/sword_teamRed.obj-44b18b16adf7a0fd41665c77b0d7fa0c.mesh"
+
+[deps]
+
+files=["res://.godot/imported/sword_teamRed.obj-44b18b16adf7a0fd41665c77b0d7fa0c.mesh"]
+
+source_file="res://assets/kaykit-minigame/sword_teamRed.obj"
+dest_files=["res://.godot/imported/sword_teamRed.obj-44b18b16adf7a0fd41665c77b0d7fa0c.mesh", "res://.godot/imported/sword_teamRed.obj-44b18b16adf7a0fd41665c77b0d7fa0c.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

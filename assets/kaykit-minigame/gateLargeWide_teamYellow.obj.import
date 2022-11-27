@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b4xg33jrsd6fp"
+path="res://.godot/imported/gateLargeWide_teamYellow.obj-aafd935ad799c20781b6a6fafd5f93cf.mesh"
+
+[deps]
+
+files=["res://.godot/imported/gateLargeWide_teamYellow.obj-aafd935ad799c20781b6a6fafd5f93cf.mesh"]
+
+source_file="res://assets/kaykit-minigame/gateLargeWide_teamYellow.obj"
+dest_files=["res://.godot/imported/gateLargeWide_teamYellow.obj-aafd935ad799c20781b6a6fafd5f93cf.mesh", "res://.godot/imported/gateLargeWide_teamYellow.obj-aafd935ad799c20781b6a6fafd5f93cf.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

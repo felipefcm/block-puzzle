@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cb838kxcejsab"
+path="res://.godot/imported/tree_desert.obj-8095249f8dec5c6c2f360dc30a5ed13a.mesh"
+
+[deps]
+
+files=["res://.godot/imported/tree_desert.obj-8095249f8dec5c6c2f360dc30a5ed13a.mesh"]
+
+source_file="res://assets/kaykit-minigame/tree_desert.obj"
+dest_files=["res://.godot/imported/tree_desert.obj-8095249f8dec5c6c2f360dc30a5ed13a.mesh", "res://.godot/imported/tree_desert.obj-8095249f8dec5c6c2f360dc30a5ed13a.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bems2e5cw00ot"
+path="res://.godot/imported/slingshot_teamRed.obj-796737d6bfbd0347a855528d98eb3d7a.mesh"
+
+[deps]
+
+files=["res://.godot/imported/slingshot_teamRed.obj-796737d6bfbd0347a855528d98eb3d7a.mesh"]
+
+source_file="res://assets/kaykit-minigame/slingshot_teamRed.obj"
+dest_files=["res://.godot/imported/slingshot_teamRed.obj-796737d6bfbd0347a855528d98eb3d7a.mesh", "res://.godot/imported/slingshot_teamRed.obj-796737d6bfbd0347a855528d98eb3d7a.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

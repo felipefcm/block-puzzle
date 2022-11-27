@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://p2tjcrw3mv0h"
+path="res://.godot/imported/swiperLong_teamRed.obj-ab0a6f6b28943aacb6240afb61e62183.mesh"
+
+[deps]
+
+files=["res://.godot/imported/swiperLong_teamRed.obj-ab0a6f6b28943aacb6240afb61e62183.mesh"]
+
+source_file="res://assets/kaykit-minigame/swiperLong_teamRed.obj"
+dest_files=["res://.godot/imported/swiperLong_teamRed.obj-ab0a6f6b28943aacb6240afb61e62183.mesh", "res://.godot/imported/swiperLong_teamRed.obj-ab0a6f6b28943aacb6240afb61e62183.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

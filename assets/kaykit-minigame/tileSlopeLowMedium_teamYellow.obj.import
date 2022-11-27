@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b6t064nj1m8mj"
+path="res://.godot/imported/tileSlopeLowMedium_teamYellow.obj-b829b8ee43ee925e63d276bcb038aac3.mesh"
+
+[deps]
+
+files=["res://.godot/imported/tileSlopeLowMedium_teamYellow.obj-b829b8ee43ee925e63d276bcb038aac3.mesh"]
+
+source_file="res://assets/kaykit-minigame/tileSlopeLowMedium_teamYellow.obj"
+dest_files=["res://.godot/imported/tileSlopeLowMedium_teamYellow.obj-b829b8ee43ee925e63d276bcb038aac3.mesh", "res://.godot/imported/tileSlopeLowMedium_teamYellow.obj-b829b8ee43ee925e63d276bcb038aac3.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cd4uj07wvl3oh"
+path="res://.godot/imported/ball_teamRed.obj-a463ea62afe0f91676f962100e09c83d.mesh"
+
+[deps]
+
+files=["res://.godot/imported/ball_teamRed.obj-a463ea62afe0f91676f962100e09c83d.mesh"]
+
+source_file="res://assets/kaykit-minigame/ball_teamRed.obj"
+dest_files=["res://.godot/imported/ball_teamRed.obj-a463ea62afe0f91676f962100e09c83d.mesh", "res://.godot/imported/ball_teamRed.obj-a463ea62afe0f91676f962100e09c83d.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

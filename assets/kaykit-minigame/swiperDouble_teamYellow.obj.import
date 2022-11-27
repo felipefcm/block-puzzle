@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://deoyd5batlexi"
+path="res://.godot/imported/swiperDouble_teamYellow.obj-689d98b6b43268fb4f116762f666ded3.mesh"
+
+[deps]
+
+files=["res://.godot/imported/swiperDouble_teamYellow.obj-689d98b6b43268fb4f116762f666ded3.mesh"]
+
+source_file="res://assets/kaykit-minigame/swiperDouble_teamYellow.obj"
+dest_files=["res://.godot/imported/swiperDouble_teamYellow.obj-689d98b6b43268fb4f116762f666ded3.mesh", "res://.godot/imported/swiperDouble_teamYellow.obj-689d98b6b43268fb4f116762f666ded3.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

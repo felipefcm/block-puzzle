@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://5itmebhfsafj"]
+
+[ext_resource type="ArrayMesh" uid="uid://bh7qf3xasuh4p" path="res://assets/kaykit-minigame/tileLarge_forest.obj" id="1_usst6"]
+
+[node name="GrassFloor" type="Node3D"]
+
+[node name="TileLargeForest" type="MeshInstance3D" parent="."]
+mesh = ExtResource("1_usst6")

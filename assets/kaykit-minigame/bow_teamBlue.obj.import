@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://7qo07gve107f"
+path="res://.godot/imported/bow_teamBlue.obj-6e5f6a8f582b5adf67aab7efc9422e34.mesh"
+
+[deps]
+
+files=["res://.godot/imported/bow_teamBlue.obj-6e5f6a8f582b5adf67aab7efc9422e34.mesh"]
+
+source_file="res://assets/kaykit-minigame/bow_teamBlue.obj"
+dest_files=["res://.godot/imported/bow_teamBlue.obj-6e5f6a8f582b5adf67aab7efc9422e34.mesh", "res://.godot/imported/bow_teamBlue.obj-6e5f6a8f582b5adf67aab7efc9422e34.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

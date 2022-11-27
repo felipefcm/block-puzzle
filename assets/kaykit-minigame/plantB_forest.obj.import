@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dn7xpubd78jwo"
+path="res://.godot/imported/plantB_forest.obj-55935ac98d698e7cd192c9fc47f1add9.mesh"
+
+[deps]
+
+files=["res://.godot/imported/plantB_forest.obj-55935ac98d698e7cd192c9fc47f1add9.mesh"]
+
+source_file="res://assets/kaykit-minigame/plantB_forest.obj"
+dest_files=["res://.godot/imported/plantB_forest.obj-55935ac98d698e7cd192c9fc47f1add9.mesh", "res://.godot/imported/plantB_forest.obj-55935ac98d698e7cd192c9fc47f1add9.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

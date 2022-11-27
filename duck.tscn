@@ -1,0 +1,31 @@
+[gd_scene load_steps=4 format=3 uid="uid://gc6hl21okehk"]
+
+[ext_resource type="ArrayMesh" uid="uid://bg1jsc747s6ul" path="res://assets/kaykit-minigame/characer_duck.obj" id="1_2hw8v"]
+[ext_resource type="ArrayMesh" uid="uid://bmd6f4lq8y1q4" path="res://assets/kaykit-minigame/characer_duckHead.obj" id="2_nst7y"]
+
+[sub_resource type="Environment" id="Environment_ujk2i"]
+background_mode = 1
+ambient_light_source = 2
+ambient_light_color = Color(0.819608, 0.988235, 0.780392, 1)
+
+[node name="Duck" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.01, 0)
+metadata/_edit_group_ = true
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(0.707107, 0.32102, -0.630037, 0, 0.891007, 0.45399, 0.707107, -0.32102, 0.630037, -83.0843, 60.6629, 83.0843)
+environment = SubResource("Environment_ujk2i")
+projection = 1
+size = 24.0
+far = 1000.0
+
+[node name="Model" type="Node3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 0, 0, 0)
+
+[node name="CharacerDuck" type="MeshInstance3D" parent="Model"]
+mesh = ExtResource("1_2hw8v")
+skeleton = NodePath("../..")
+
+[node name="CharacerDuckHead" type="MeshInstance3D" parent="Model"]
+mesh = ExtResource("2_nst7y")
+skeleton = NodePath("../..")

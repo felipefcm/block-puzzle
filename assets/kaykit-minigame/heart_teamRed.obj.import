@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dybp4dv8n06qo"
+path="res://.godot/imported/heart_teamRed.obj-0bc98c3e7139ec2d96f300c65358319b.mesh"
+
+[deps]
+
+files=["res://.godot/imported/heart_teamRed.obj-0bc98c3e7139ec2d96f300c65358319b.mesh"]
+
+source_file="res://assets/kaykit-minigame/heart_teamRed.obj"
+dest_files=["res://.godot/imported/heart_teamRed.obj-0bc98c3e7139ec2d96f300c65358319b.mesh", "res://.godot/imported/heart_teamRed.obj-0bc98c3e7139ec2d96f300c65358319b.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

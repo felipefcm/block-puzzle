@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://j8ae2vffr78u"
+path="res://.godot/imported/barrierSmall.obj-9e6ccd52d7b7a23f5117d5a8fdd3a0ba.mesh"
+
+[deps]
+
+files=["res://.godot/imported/barrierSmall.obj-9e6ccd52d7b7a23f5117d5a8fdd3a0ba.mesh"]
+
+source_file="res://assets/kaykit-minigame/barrierSmall.obj"
+dest_files=["res://.godot/imported/barrierSmall.obj-9e6ccd52d7b7a23f5117d5a8fdd3a0ba.mesh", "res://.godot/imported/barrierSmall.obj-9e6ccd52d7b7a23f5117d5a8fdd3a0ba.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
