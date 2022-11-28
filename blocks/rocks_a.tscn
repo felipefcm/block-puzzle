@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://8vu3v8t2l2py"]
+
+[ext_resource type="ArrayMesh" uid="uid://brn3esebx6ffm" path="res://assets/kaykit-minigame/rocksA_forest.obj" id="1_nynx7"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_q6r4u"]
+size = Vector3(5.88367, 1.13181, 5.87787)
+
+[node name="RocksA" type="StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.000980865, 0.560424, -0.0100991)
+shape = SubResource("BoxShape3D_q6r4u")
+
+[node name="Mesh" type="MeshInstance3D" parent="."]
+transform = Transform3D(3.2, 0, 0, 0, 3.2, 0, 0, 0, 3.2, 0, 0, 0)
+mesh = ExtResource("1_nynx7")

@@ -2,7 +2,8 @@ class_name Duck extends CharacterBody3D
 
 @onready var modelNode = $Model as Node3D
 
-const maxSpeed := 8.0
+const inputAccel := 15.0
+const maxSpeed := 12.0
 
 func _ready():
 	pass
@@ -15,7 +16,7 @@ func _physics_process(delta: float):
 	).rotated(Vector3.UP, -PI / 4.0).normalized()
 
 	var dampForce := 6.0 * -velocity * Vector3(1 - absf(input.x), 0, 1 - absf(input.z))
-	velocity += (10.0 * input + dampForce) * delta
+	velocity += (inputAccel * input + dampForce) * delta
 	
 	if(input.length() > 0):
 		var angle := input.signed_angle_to(Vector3(1, 0, 0), Vector3(0, -1, 0))

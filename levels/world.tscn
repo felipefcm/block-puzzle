@@ -1,7 +1,9 @@
-[gd_scene load_steps=3 format=3 uid="uid://b2x7ctr0mqior"]
+[gd_scene load_steps=5 format=3 uid="uid://b2x7ctr0mqior"]
 
 [ext_resource type="PackedScene" uid="uid://gc6hl21okehk" path="res://entities/duck.tscn" id="1_2oiaa"]
 [ext_resource type="PackedScene" uid="uid://5itmebhfsafj" path="res://blocks/grass_floor.tscn" id="2_o0c5t"]
+[ext_resource type="PackedScene" uid="uid://8vu3v8t2l2py" path="res://blocks/rocks_a.tscn" id="3_o0i8i"]
+[ext_resource type="PackedScene" uid="uid://c2wh74wne15p7" path="res://blocks/rocks_b.tscn" id="4_68iob"]
 
 [node name="World" type="Node3D"]
 
@@ -41,3 +43,11 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9, 0, 12)
 
 [node name="GrassFloor10" parent="Floor" instance=ExtResource("2_o0c5t")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, 12)
+
+[node name="Blocks" type="Node3D" parent="."]
+
+[node name="RocksA" parent="Blocks" instance=ExtResource("3_o0i8i")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 6)
+
+[node name="RocksB" parent="Blocks" instance=ExtResource("4_68iob")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, -6)
