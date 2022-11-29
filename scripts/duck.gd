@@ -19,7 +19,7 @@ func _physics_process(delta: float):
 	velocity += (inputAccel * input + dampForce) * delta
 	
 	if(input.length() > 0):
-		var angle := input.signed_angle_to(Vector3(1, 0, 0), Vector3(0, -1, 0))
+		var angle := input.signed_angle_to(Vector3.RIGHT, Vector3(0, -1, 0))
 		modelNode.rotation.y = PI / 2.0 + angle
 
 	velocity = velocity.limit_length(maxSpeed)

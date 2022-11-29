@@ -1,21 +1,28 @@
-[gd_scene load_steps=5 format=3 uid="uid://b2x7ctr0mqior"]
+[gd_scene load_steps=6 format=3 uid="uid://b2x7ctr0mqior"]
 
 [ext_resource type="PackedScene" uid="uid://gc6hl21okehk" path="res://entities/duck.tscn" id="1_112i5"]
+[ext_resource type="Script" path="res://scripts/level.gd" id="1_tie8f"]
 [ext_resource type="PackedScene" uid="uid://5itmebhfsafj" path="res://blocks/grass_floor.tscn" id="2_pl3b6"]
 [ext_resource type="PackedScene" uid="uid://8vu3v8t2l2py" path="res://blocks/rocks_a.tscn" id="3_gc56v"]
 [ext_resource type="PackedScene" uid="uid://c2wh74wne15p7" path="res://blocks/rocks_b.tscn" id="4_shir2"]
 
 [node name="Level" type="Node3D"]
+script = ExtResource("1_tie8f")
+playerScene = ExtResource("1_112i5")
 
-[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+[node name="Sun" type="DirectionalLight3D" parent="."]
 transform = Transform3D(-0.707107, 0.5, -0.5, 3.09086e-08, 0.707107, 0.707107, 0.707107, 0.5, -0.5, 11, 8, -13)
 light_energy = 2.5
 
-[node name="Duck" parent="." instance=ExtResource("1_112i5")]
+[node name="InitialPlayerPosition" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.01, 0)
 
 [node name="Floor" type="Node3D" parent="."]
 
 [node name="GrassFloor" parent="Floor" instance=ExtResource("2_pl3b6")]
+
+[node name="GrassFloor5" parent="Floor" instance=ExtResource("2_pl3b6")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, 0)
 
 [node name="GrassFloor2" parent="Floor" instance=ExtResource("2_pl3b6")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, 0)
@@ -26,23 +33,11 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, 0)
 [node name="GrassFloor4" parent="Floor" instance=ExtResource("2_pl3b6")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18, 0, 0)
 
-[node name="GrassFloor5" parent="Floor" instance=ExtResource("2_pl3b6")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18, 0, 6)
-
 [node name="GrassFloor6" parent="Floor" instance=ExtResource("2_pl3b6")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 6)
 
 [node name="GrassFloor7" parent="Floor" instance=ExtResource("2_pl3b6")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -6)
-
-[node name="GrassFloor8" parent="Floor" instance=ExtResource("2_pl3b6")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15, 0, 12)
-
-[node name="GrassFloor9" parent="Floor" instance=ExtResource("2_pl3b6")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9, 0, 12)
-
-[node name="GrassFloor10" parent="Floor" instance=ExtResource("2_pl3b6")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, 12)
 
 [node name="Blocks" type="Node3D" parent="."]
 
