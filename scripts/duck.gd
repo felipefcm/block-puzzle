@@ -15,7 +15,7 @@ func _physics_process(delta: float):
 		-Input.get_axis('ui_down', 'ui_up'),
 	).rotated(Vector3.UP, -PI / 4.0).normalized()
 
-	var dampForce := 6.0 * -velocity * Vector3(1 - absf(input.x), 0, 1 - absf(input.z))
+	var dampForce := 6.0 * -velocity * Vector3(1 - absf(input.x), 1, 1 - absf(input.z))
 	velocity += (inputAccel * input + dampForce) * delta
 	
 	if(input.length() > 0):
@@ -23,5 +23,7 @@ func _physics_process(delta: float):
 		modelNode.rotation.y = PI / 2.0 + angle
 
 	velocity = velocity.limit_length(maxSpeed)
+	velocity.y = -9.8
+	# print('VEL ', velocity)
 	move_and_slide()
 	
