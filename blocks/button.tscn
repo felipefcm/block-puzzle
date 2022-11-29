@@ -1,0 +1,21 @@
+[gd_scene load_steps=4 format=3 uid="uid://buwfb0ty13ejl"]
+
+[ext_resource type="ArrayMesh" uid="uid://cjckuj7xiuhek" path="res://assets/kaykit-minigame/button_teamBlue.obj" id="1_2nbug"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_k4oqd"]
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_ctxgp"]
+height = 0.0446637
+radius = 1.54016
+
+[node name="Button" type="StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
+physics_material_override = SubResource("PhysicsMaterial_k4oqd")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0278237, 0)
+shape = SubResource("CylinderShape3D_ctxgp")
+
+[node name="Mesh" type="MeshInstance3D" parent="."]
+transform = Transform3D(1.9, 0, 0, 0, 1, 0, 0, 0, 1.9, 0, 0, 0)
+mesh = ExtResource("1_2nbug")

@@ -23,3 +23,4 @@ func spawnPlayer():
 	duck.global_position = initialPlayerPosition.global_position
 
 	add_child(duck)
+

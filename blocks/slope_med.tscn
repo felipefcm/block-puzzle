@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://yp3ad74b2lmu"]
+
+[ext_resource type="ArrayMesh" uid="uid://clc1gttiilj87" path="res://assets/kaykit-minigame/tileSlopeLowMedium_forest.obj" id="1_5npcp"]
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_ix2c8"]
+points = PackedVector3Array(1, 0, 1, -1, 0, 1, -1, 0, -1, 1, 0, -1, 1, 0.969, 1, -1, 1.527, 1, -1, 1.52, -1, 1, 0.969, -1)
+
+[node name="SlopeMed" type="StaticBody3D"]
+
+[node name="Mesh" type="MeshInstance3D" parent="."]
+mesh = ExtResource("1_5npcp")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("ConvexPolygonShape3D_ix2c8")
