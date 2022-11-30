@@ -11,10 +11,10 @@ func _ready():
 
 func _physics_process(delta: float):
 	var input := Vector3(
-		Input.get_axis('ui_left', 'ui_right'),
+		Input.get_axis('ui_right', 'ui_left'),
 		0,
-		-Input.get_axis('ui_down', 'ui_up'),
-	).rotated(Vector3.UP, -PI / 4.0).normalized()
+		Input.get_axis('ui_down', 'ui_up'),
+	).rotated(Vector3.UP, PI / 4.0).normalized()
 
 	var dampForce := 6.0 * -velocity * Vector3(1 - absf(input.x), 0, 1 - absf(input.z))
 	velocity += (inputAccel * input + dampForce) * delta

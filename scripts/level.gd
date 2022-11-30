@@ -20,11 +20,9 @@ func _process(delta: float):
 
 	if(duck.global_position.y <= -4.0): spawnPlayer()
 	
-	for ducklingIdx in range(ducklings.size()):
-		var duckling = ducklings[ducklingIdx]
-		if(duckling.global_position.y <= -8.0):
+	for duckling in ducklings:
+		if(is_instance_valid(duckling) and duckling.global_position.y <= -8.0):
 			duckling.queue_free()
-			ducklings.remove_at(ducklingIdx)
 
 
 func spawnPlayer():

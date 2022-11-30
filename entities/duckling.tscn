@@ -19,7 +19,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.183531, 0)
 shape = SubResource("SphereShape3D_203pw")
 
 [node name="Model" type="Node3D" parent="."]
-transform = Transform3D(-1.31134e-08, 0, 0.3, 0, 0.3, 0, -0.3, 0, -1.31134e-08, 0, 0, 0)
+transform = Transform3D(0.3, 0, 0, 0, 0.3, 0, 0, 0, 0.3, 0, 0, 0)
 
 [node name="CharacerDuck" type="MeshInstance3D" parent="Model"]
 mesh = ExtResource("2_nk07k")
