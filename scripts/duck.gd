@@ -8,6 +8,7 @@ const maxSpeed := 12.0
 func _ready():
 	pass
 
+
 func _physics_process(delta: float):
 	var input := Vector3(
 		Input.get_axis('ui_left', 'ui_right'),
@@ -27,4 +28,11 @@ func _physics_process(delta: float):
 		velocity.y -= 75 * delta
 
 	move_and_slide()
-	
+
+	for colIdx in range(get_slide_collision_count()):
+		var col := get_slide_collision(colIdx)
+		var body := col.get_collider() as Node3D
+		
+		if(body is Duckling):
+			body.apply_central_impulse(col.get_remainder() * 10)
+		

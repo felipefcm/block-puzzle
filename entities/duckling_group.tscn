@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://br8damcxp4j72"]
+
+[ext_resource type="PackedScene" uid="uid://bghpylwb5i3o5" path="res://entities/duckling.tscn" id="1_g2704"]
+
+[node name="DucklingGroup" type="Node3D"]
+
+[node name="Duckling" parent="." instance=ExtResource("1_g2704")]

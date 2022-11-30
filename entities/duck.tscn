@@ -14,11 +14,9 @@ ambient_light_color = Color(0.819608, 0.988235, 0.780392, 1)
 
 [node name="Duck" type="CharacterBody3D"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
-collision_layer = 3
 floor_max_angle = 1.0472
 floor_snap_length = 0.5
 script = ExtResource("1_xourh")
-metadata/_edit_group_ = true
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.814065, 0)

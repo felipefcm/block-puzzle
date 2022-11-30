@@ -1,0 +1,30 @@
+[gd_scene load_steps=5 format=3 uid="uid://bghpylwb5i3o5"]
+
+[ext_resource type="Script" path="res://scripts/duckling.gd" id="1_kgklh"]
+[ext_resource type="ArrayMesh" uid="uid://bg1jsc747s6ul" path="res://assets/kaykit-minigame/characer_duck.obj" id="2_nk07k"]
+[ext_resource type="ArrayMesh" uid="uid://bmd6f4lq8y1q4" path="res://assets/kaykit-minigame/characer_duckHead.obj" id="3_qgc8p"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_203pw"]
+radius = 0.184
+
+[node name="Duckling" type="RigidBody3D"]
+mass = 0.12
+max_contacts_reported = 5
+contact_monitor = true
+script = ExtResource("1_kgklh")
+metadata/_edit_group_ = true
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.183531, 0)
+shape = SubResource("SphereShape3D_203pw")
+
+[node name="Model" type="Node3D" parent="."]
+transform = Transform3D(-1.31134e-08, 0, 0.3, 0, 0.3, 0, -0.3, 0, -1.31134e-08, 0, 0, 0)
+
+[node name="CharacerDuck" type="MeshInstance3D" parent="Model"]
+mesh = ExtResource("2_nk07k")
+skeleton = NodePath("../..")
+
+[node name="CharacerDuckHead" type="MeshInstance3D" parent="Model"]
+mesh = ExtResource("3_qgc8p")
+skeleton = NodePath("../..")

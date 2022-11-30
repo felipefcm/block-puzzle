@@ -5,18 +5,23 @@
 [ext_resource type="PackedScene" uid="uid://5itmebhfsafj" path="res://blocks/grass_floor.tscn" id="2_pl3b6"]
 [ext_resource type="PackedScene" uid="uid://8vu3v8t2l2py" path="res://blocks/rocks_a.tscn" id="3_gc56v"]
 [ext_resource type="PackedScene" uid="uid://c2wh74wne15p7" path="res://blocks/rocks_b.tscn" id="4_shir2"]
-[ext_resource type="PackedScene" uid="uid://buwfb0ty13ejl" path="res://blocks/button.tscn" id="6_wngbv"]
 [ext_resource type="PackedScene" uid="uid://yp3ad74b2lmu" path="res://blocks/slope_med.tscn" id="7_aeyki"]
+[ext_resource type="PackedScene" uid="uid://bghpylwb5i3o5" path="res://entities/duckling.tscn" id="7_h4e6s"]
 
 [node name="Level" type="Node3D"]
 script = ExtResource("1_tie8f")
 playerScene = ExtResource("1_112i5")
+ducklingScene = ExtResource("7_h4e6s")
 
 [node name="Sun" type="DirectionalLight3D" parent="."]
-transform = Transform3D(-0.707107, 0.5, -0.5, 3.09086e-08, 0.707107, 0.707107, 0.707107, 0.5, -0.5, 11, 8, -13)
+transform = Transform3D(-0.707107, 0.5, -0.5, 3.09086e-08, 0.707107, 0.707107, 0.707107, 0.5, -0.5, 1, 8, -13)
 light_energy = 2.5
 
 [node name="InitialPlayerPosition" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.4, 0)
+
+[node name="DucklingSpawnPoint" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.13331, 1.26803, 0)
 
 [node name="Floor" type="Node3D" parent="."]
 
@@ -53,9 +58,6 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 6)
 
 [node name="RocksB" parent="Blocks" instance=ExtResource("4_shir2")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, -6)
-
-[node name="Button" parent="Blocks" instance=ExtResource("6_wngbv")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 1, 0)
 
 [node name="SlopeMed" parent="." instance=ExtResource("7_aeyki")]
 transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 4, 0, -4)
