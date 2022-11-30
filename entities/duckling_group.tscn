@@ -5,3 +5,43 @@
 [node name="DucklingGroup" type="Node3D"]
 
 [node name="Duckling" parent="." instance=ExtResource("1_g2704")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.233172, 0, 0)
+
+[node name="Duckling14" parent="." instance=ExtResource("1_g2704")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.227619, 0, 0)
+
+[node name="Duckling2" parent="." instance=ExtResource("1_g2704")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.449687)
+
+[node name="Duckling11" parent="." instance=ExtResource("1_g2704")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.460791, 0, -0.449687)
+
+[node name="Duckling6" parent="." instance=ExtResource("1_g2704")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.45524, 0, -0.449687)
+
+[node name="Duckling7" parent="." instance=ExtResource("1_g2704")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.45524, 0, -0.910478)
+
+[node name="Duckling12" parent="." instance=ExtResource("1_g2704")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.899375, 0, -0.910478)
+
+[node name="Duckling8" parent="." instance=ExtResource("1_g2704")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.45524, 0, -1.36572)
+
+[node name="Duckling3" parent="." instance=ExtResource("1_g2704")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.904927)
+
+[node name="Duckling10" parent="." instance=ExtResource("1_g2704")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.460791, 0, -0.904927)
+
+[node name="Duckling13" parent="." instance=ExtResource("1_g2704")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.910478, 0, -0.904927)
+
+[node name="Duckling4" parent="." instance=ExtResource("1_g2704")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -1.36017)
+
+[node name="Duckling9" parent="." instance=ExtResource("1_g2704")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.455239, 0, -1.36017)
+
+[node name="Duckling5" parent="." instance=ExtResource("1_g2704")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -1.80985)

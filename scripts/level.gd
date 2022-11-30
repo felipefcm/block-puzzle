@@ -21,7 +21,7 @@ func _process(delta: float):
 	if(duck.global_position.y <= -4.0): spawnPlayer()
 	
 	for duckling in ducklings:
-		if(is_instance_valid(duckling) and duckling.global_position.y <= -8.0):
+		if(is_instance_valid(duckling) and duckling.global_position.y <= -10.0):
 			duckling.queue_free()
 
 
@@ -35,11 +35,13 @@ func spawnPlayer():
 
 
 func spawnDucklings():
-	for x in range(7):
-		var duckling = ducklingScene.instantiate()
-		duckling.duck = duck
-		
+	var ducklingGroup = ducklingScene.instantiate()
+	add_child(ducklingGroup)
+	ducklingGroup.global_position = ducklingSpawnPoint.global_position
+
+	var dls = ducklingGroup.get_children()
+
+	for duckling in dls:
+		duckling.duck = duck	
 		ducklings.push_back(duckling)
-		add_child(duckling)
-		duckling.global_position = ducklingSpawnPoint.global_position
 

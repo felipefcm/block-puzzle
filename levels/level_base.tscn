@@ -3,12 +3,12 @@
 [ext_resource type="PackedScene" uid="uid://gc6hl21okehk" path="res://entities/duck.tscn" id="1_112i5"]
 [ext_resource type="Script" path="res://scripts/level.gd" id="1_tie8f"]
 [ext_resource type="PackedScene" uid="uid://5itmebhfsafj" path="res://blocks/grass_floor.tscn" id="2_pl3b6"]
-[ext_resource type="PackedScene" uid="uid://bghpylwb5i3o5" path="res://entities/duckling.tscn" id="7_h4e6s"]
+[ext_resource type="PackedScene" uid="uid://br8damcxp4j72" path="res://entities/duckling_group.tscn" id="3_bwsrp"]
 
 [node name="Level" type="Node3D"]
 script = ExtResource("1_tie8f")
 playerScene = ExtResource("1_112i5")
-ducklingScene = ExtResource("7_h4e6s")
+ducklingScene = ExtResource("3_bwsrp")
 
 [node name="Sun" type="DirectionalLight3D" parent="."]
 transform = Transform3D(-0.707107, 0.5, -0.5, 3.09086e-08, 0.707107, 0.707107, 0.707107, 0.5, -0.5, 1, 8, -13)
